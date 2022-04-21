@@ -1,0 +1,37 @@
+* {
+    font-family: Garamond, serif;
+}
+
+body {
+    margin: 0 40px;
+}
+
+h1 {
+    color: #e60000;
+    font-family: Papyrus, fantasy;
+    font-size: 50px;
+    text-align: center;
+}
+
+.menu {
+    margin-bottom: 40px;
+}
+
+.menu > ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+a:hover {
+    border-bottom: 1px solid #333;
+    color: #333;
+}
