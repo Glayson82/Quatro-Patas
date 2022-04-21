@@ -35,3 +35,11 @@ a:hover {
     border-bottom: 1px solid #333;
     color: #333;
 }
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo>img{
+    width: 200px;
+    margin-right: 20%;
+}
